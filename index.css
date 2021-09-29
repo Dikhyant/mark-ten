@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-title {
+    text-align: center;
+}
+
+#bill-entry {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#bill-entry.bulk {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#customer-entry {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 2rem;
+}
+
+#customer-entry.bulk {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cash-table {
+    border-style: solid;
+    border-width: 1px;
+
+    align-self: center;
+}
+
+tr {
+    border-style: solid;
+    border-width: 1px;
+}
+
+td {
+    border-style: solid;
+    border-width: 1px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet" />
+    <title>Choota</title>
+</head>
+<body>
+    <h1 class="page-title">Choota</h1>
+    <div id="bill-entry">
+
+        <div class="bulk">
+            <h3 style="flex: 1; text-align: center;">Enter bill</h3>
+            <input type="number" id="bill-amount"  />
+            <button id="btn-bill" >Enter</button>
+        </div>
+        
+    </div>
+
+    <div id="customer-entry">
+
+        <div class="bulk">
+            <h3 style="flex: 1; text-align: center;">Cash paid by customer</h3>
+            <input type="number" style="width: 13rem;" id="customer-pay" />
+            <button id="btn-customer-pay" >Enter</button>
+        </div>
+        
+    </div>
+
+    <div id="message-for-low-cash-customer" style="
+        flex: 1;
+        text-align: center;
+        margin-top: 2rem;
+        visibility: hidden;
+    " ><span style="
+        background-color: rgb(204, 0, 0);
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 8px;
+    "> Dhulai karwani hai apni ?</span></div>
+
+    <div style="
+                display: flex;
+                flex: 1;
+                flex-direction: row;
+                margin-top: 3rem;
+                ">
+        <div style="flex: 1;"></div>
+
+        <div style="flex: 1;">
+            <table id="cash-table">
+                <tr>
+                    <td>no. of notes</td>
+                    <td class="freq">0</td>
+                    <td class="freq">0</td>
+                    <td class="freq">0</td>
+                    <td class="freq">0</td>
+                    <td class="freq">0</td>
+                    <td class="freq">0</td>
+                    <td class="freq">0</td>
+                    <td class="freq">0</td>
+                    <td class="freq">0</td>
+                </tr>
+                <tr>
+                    <td>Cash unit</td>
+                    <td>2000</td>
+                    <td>500</td>
+                    <td>200</td>
+                    <td>100</td>
+                    <td>50</td>
+                    <td>20</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
+
+        <div style="flex: 1;"></div>
+    </div>
+
+    
+
+    <script src="index.js" ></script>
+</body>
+</html>
